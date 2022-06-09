@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 메타태그 -->
+    <meta name="description" content="Hong Gil-dong의 프로필"/>
+    <meta name="keywords" content="Hong Gil-dong, 홍길동, 프로필">
+    <meta name="author" content="Hong Gil-dong">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./instaicon.png" type="image/x-icon">
+    <title>Profile</title>
+    <!-- 리셋 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <!-- 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/6584921572.js" crossorigin="anonymous"></script>
+    <!-- 모달 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+<div class="container">
+    <!-- 헤더 -->
+    <header class="header">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-search"></i>
+    <a href="./index.html"><h2>Profile</h2></a>
+    <i class="fas fa-user"></i>
+    <i class="fas fa-comments"></i>
+    </header>
+
+    <!-- 메인사진 -->
+    <section class=" sec mainphoto">
+    <div class="circlephoto"><a></a>
+    <p class="won"><span>50%</span></p>
+    <h3>Complate</h3>
+    </div>
+    </section>
+    
+    <!-- 본문 -->
+    <section class="sec main">
+    <h4>Hong Gil-dong</h4>
+    <p><a href="#ex9" rel="modal:open"><h5><i class="fas fa-map-marker-alt"></i> Seoul, joongu</h5></a></p>
+    <div class="followbox">
+        <ul>
+            <p><a href="#ex10" rel="modal:open"><li><span>1,120</span><span class="korean">팔로워</span></li></a></p>
+            <p><a href="#ex11" rel="modal:open"><li><span>1,567</span><span class="korean">팔로잉</span></li></a></p>
+            <li class="lastfollowbox"><span>678</span><span class="korean">사진첩</span></li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- 게시글 -->
+    <section class="sec post1" id="post1">
+        <ul>
+            <p><a href="#ex1" rel="modal:open"><li><img src="./images/p1.jpg" alt="p1"></li></a></p>
+            <p><a href="#ex2" rel="modal:open"><li><img src="./images/p2.jpg" alt="p2"></li></a></p>
+            <p><a href="#ex3" rel="modal:open"><li><img src="./images/p3.jpg" alt="p3"></li></a></p>
+            <p><a href="#ex4" rel="modal:open"><li><img src="./images/p4.jpg" alt="p4"></li></a></p>
+        </ul>
+    </section>
+    <section class="sec post2" id="post2">
+        <ul>
+            <p><a href="#ex5" rel="modal:open"><li><img src="./images/p5.jpg" alt="p5"></li></a></p>
+            <p><a href="#ex6" rel="modal:open"><li><img src="./images/p6.jpg" alt="p6"></li></a></p>
+            <p><a href="#ex7" rel="modal:open"><li><img src="./images/p7.jpg" alt="p7"></li></a></p>
+            <p><a href="#ex8" rel="modal:open"><li><img src="./images/p8.jpg" alt="p8"></li></a></p>
+        </ul>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+    <div class="footer">
+        <a href="./index.html"><i class="fas fa-home"></i></a>
+        <i class="fas fa-handshake"></i>
+        <i class="fas fa-paper-plane"></i>
+        <p><a href="#ex9" rel="modal:open"><i class="fas fa-map-marked-alt"></i></a></p>
+    </div>
+    </footer>
+</div>
+    
+
+<!-- 모달 -->
+<div id="ex1" class="modal">
+    <p><img src="./images/photo01.jpg" alt="bp1"></p>
+    <br>
+    <p>2018.03.21</p>
+    <p>빵모자 쓴 쌍둥이</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex2" class="modal">
+    <p><img src="./images/photo02.jpg" alt="bp2"></p>
+    <br>
+    <p>2017.09.07 </p>
+    <p>머리띠 쌍둥이</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex3" class="modal">
+    <p><img src="./images/photo03.jpg" alt="bp3"></p>
+    <br>
+    <p>2018.03.21 </p>
+    <p>빵모자 쓰고 촬영가는 쌍둥이</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex4" class="modal">
+    <p><img src="./images/photo04.jpg" alt="bp4"></p>
+    <br>
+    <p>2018.03.21 </p>
+    <p>다 같이 촬영하러가는 우리 가족</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex5" class="modal">
+    <p><img src="./images/photo05.jpg" alt="bp5"></p>
+    <br>
+    <p>2018.03.21 </p>
+    <p>에스컬레이터가 신기한 동생</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex6" class="modal">
+    <p><img src="./images/photo06.jpg" alt="bp6"></p>
+    <br>
+    <p>2018.03.21 </p>
+    <p>빵모자 쓴 동생</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex7" class="modal">
+    <p><img src="./images/photo07.jpg" alt="bp7"></p>
+    <br>
+    <p>2017.12.25 </p>
+    <p>크리스마스 형</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex8" class="modal">
+    <p><img src="./images/photo08.jpg" alt="bp8"></p>
+    <br>
+    <p>2018.03.21 </p>
+    <p>모든게 신기한 동생</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex9" class="modal">
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50606.184147138105!2d126.95914596490151!3d37.557737570837396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2fc53a1f59b%3A0x5f7e54ee689e9e17!2z7ISc7Jq47Yq567OE7IucIOykkeq1rA!5e0!3m2!1sko!2skr!4v1642571754673!5m2!1sko!2skr" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex10" class="modal">
+    <p>팔로워를 보려면 팔로잉하세요</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex11" class="modal">
+    <p>팔로잉을 보려면 팔로잉하세요</p>
+    <br>
+    <a href="#" rel="modal:close">Close</a>
+</div>
+</body>
+</html>

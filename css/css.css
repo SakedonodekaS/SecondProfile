@@ -1,0 +1,164 @@
+.container{
+    max-width:360px;
+    max-height:653px;
+    margin:0 auto;
+}
+/* 헤더 */
+.header{
+    display:flex;
+    flex-direction:row;
+    border-bottom : 1px solid #eeeeee;
+    margin-top:10px;
+    color:#666666;
+}
+.header i{
+    margin-top : 10px;
+}
+.fa-bars{
+    margin-left: 20px;
+}
+.fa-search{
+    margin-left: 20px;
+    margin-right: 80px;
+}
+.fa-user{
+    margin-left:80px;
+}
+.fa-comments{
+    margin-left : 20px;
+    margin-right: 20px;
+}
+.header h2{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:10px;
+}
+/* 메인사진 */
+.circlephoto{
+    border-radius:50%;
+    width:150px;
+    height : 150px;
+    margin: 50px auto;
+    border-style:solid;
+    border-width: 5px;
+    border-color: #8ff7c2 #8ff7c2 #cbcbcb #cbcbcb;
+    position:relative;
+    text-align: center;
+
+}
+.circlephoto a{
+    display: block;
+    width:100%;
+    height: 100%;
+    background:url(../images/photo01.jpg) no-repeat center;
+    background-size: cover;  
+    border-radius:50%;
+}
+.won{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:red;
+    width:24px;
+    height: 24px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 24px;
+    box-shadow: 1px 2px 12px rgba(255,0,0,.5);
+}
+.won span{
+    font-size: 10px;
+    font-weight: 700;
+    color:white;
+}
+/* 본문 */
+.followbox{
+    margin-bottom: -10px;
+}
+h3{
+    text-align: center;
+    color: #cccccc;
+    font-weight: 300;
+    margin-top : 20px;
+}
+h4{
+    text-align: center;
+    font-weight: 500;
+    font-size : 25px;
+    color: #666666;
+    margin-bottom : 5px;
+    margin-top : 70px;
+}
+h5{
+    text-align:center;
+    font-weight: 500;
+    font-size : 20px;
+    color: #888888;
+}
+.followbox ul{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    margin : 30px auto;
+}
+.followbox ul li{
+    flex:auto;
+    position : relative;
+}
+.followbox li::before{
+    content:"";
+    display:block;
+    width:3px;
+    height:20px;
+    background:#cccccc;
+    position:absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.followbox .lastfollowbox::before{
+    display:none;
+}
+span{
+    font-size:15px;
+    font-weight: 600;
+}
+.korean{
+    font-size:10px;
+    font-weight:400;
+}
+/* 게시글 */
+.post1 ul, .post2 ul{
+    display:flex;
+    flex-direction: row;
+    padding:0.3em 0;
+    margin-left : 5px;
+}
+.post1 li, .post2 li{
+    margin-right: 10px;
+    flex : 1;
+}
+/* 푸터 */
+.footer{
+    height: 45px;
+    background-color: #f0f0f0;
+    display:flex;
+    flex-direction:row;
+}
+.footer i{
+    margin-top: 15px;
+    color: #cccccc;
+    display:flex;
+    flex-direction: row;
+    margin-left : 35px;
+    margin-right : 35px;
+}
+/* 모달 */
+.modal p{
+    font-weight: 700;
+    color:#666666;
+}
+.modal a{
+    color:red;
+    font-weight: 700;
+}
